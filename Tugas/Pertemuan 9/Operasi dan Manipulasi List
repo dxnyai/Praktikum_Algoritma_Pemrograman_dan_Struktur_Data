@@ -1,0 +1,35 @@
+# Nama: Dany Akhdan Imaduddin
+# NPM: 2505060062
+
+# 1. Diberikan list berikut
+fruit = ['apel', 'mangga', 'jeruk', 'anggur', 'pisang']
+
+# a. Tambahkan 'semangka' di akhir list
+fruit.append('semangka')
+print(fruit)
+
+# b. Sisipkan 'durian' di antara 'jeruk' dan 'anggur'
+fruit.insert(3, 'durian')
+print(fruit)
+
+# c. Hapus 'mangga' dari list
+fruit.remove('mangga')
+print(fruit)
+
+# d. Ubah 'pisang' menjadi 'nanas'
+fruit[-2] = 'nanas'
+print(fruit)
+
+# e. Tampilkan 3 buah pertama
+print(fruit[:3])
+
+# 2. Diberkan list berikut
+number = [45, 12, 78, 23, 56, 89, 34]
+
+# a. Urutkan secara ascending (dari yang terkecil)
+number.sort()
+print(number)
+
+# b. Urutkan secara descending (dari yang terbesar)
+number.reverse()
+print(number)
